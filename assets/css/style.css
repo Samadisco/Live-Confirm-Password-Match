@@ -1,0 +1,60 @@
+    /* QUERRYING BY TAG  */
+    
+   body {
+       color: aliceblue;
+       background-color: rgb(19, 17, 17);
+       font-family: cursive;
+   }
+
+   button {
+       font-weight: bold
+   }
+
+   a small {
+       font-weight: 600;
+
+   }
+
+   /* QUERRYING BY ID  */
+   #right-col {
+       background-image: url("/assets/img/bg-image.png");
+       background-size: cover;
+       background-repeat: no-repeat;
+       color: white
+   }
+
+
+   /* QUERRYING BY CLASSES */
+   .form-element {
+        padding: 12px;
+       background-color: rgb(19, 17, 17);
+       color: white;
+       border: 1px solid white;
+       border-radius: 8px;
+       width: 80%;
+   }
+
+   .btn {
+       width: 80%;
+       border-radius: 8px;
+       padding: 12px;
+       background-color: rgb(14, 14, 131);
+       color: aliceblue
+   }
+
+   .btn:hover {
+       background-color: rgba(8, 8, 95, 0.795);
+   }
+
+   .btn:disabled {
+       background-color: rgba(40, 40, 63, 0.795);
+       ;
+       color: rgb(14, 7, 7);
+       border-color: beige;
+   }
+
+   .form-element-wrapper {
+       margin-top: 15px;
+       margin-bottom: 15px;
+   }
+

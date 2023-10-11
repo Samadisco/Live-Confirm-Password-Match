@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Confirm Password Match</title>
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<div  class="container-fluid">
+    <body>
+        <div style="height: 100vh ;" class="row ">
+            <div style="padding-left: 10px;" class="col-md-5 mt-3 px-5">
+                    <img src="/assets/img/logo.png" >                
+                <div class="mt-4">
+                    <h3>Register Now</h3>
+                </div>
+                <div class="registration-form">
+                    <form>
+                        <div class="form-element-wrapper">
+                            <label class="form-label" for="user-email">Email</label>
+                            <br>
+                            <input class="form-element" placeholder="Enter Your Email">
+                        </div>
+                        <div class="form-element-wrapper">
+                            <label class="form-label" for="user-password">Enter Password</label>
+                            <br>
+                            <input class="form-element" id="password" type="password" placeholder="Password">
+                        </div>
+                        <div class="">
+                            <label class="form-label" for="user-confirm-password">Confirm password</label>
+                            <br>
+                            <input class="form-element" id="confirm-password" type="password" placeholder="Confirm Your Password">
+                            
+                        </div>
+                        <small id="nonMatching" style="visibility: hidden;" class="text-danger">Passwords do not match</small>
+                        <small id="Matching" style="display: none;" class="text-success">Passwords are matching</small>
+
+                        <div class="form-element-wrapper">
+                            <h6>FORGOT PASSWORD?</h6>
+                        </div>
+
+                        <button id="register-btn"  class="btn btn-primary  form-element-wrapper">
+                            REGISTER
+                        </button>
+                    </form>
+                   
+                    
+                </div>
+
+                <div>
+                    <a>
+                        <small>Don't have an account? Sign up</small>
+                    </a>
+                </div>
+                
+             
+
+             
+
+            </div>
+            <div id="right-col"  class="d-xs-none d-sm-none d-md-block col-md-7">
+                <div style="height: 80%; color: rgb(126, 129, 129);" class="d-flex  align-items-center justify-content-center">                                         
+                        <p>Discover Excellence In Practice</p>                                 
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
